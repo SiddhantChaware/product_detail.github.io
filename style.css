@@ -1,0 +1,229 @@
+@import url("https://fonts.google.com/specimen/Inter");
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    max-height: 100%;
+}
+
+@media screen and (min-width:1025px) {
+    .container{
+        display: flex; 
+    }
+}
+@media screen and (max-width: 767px ) {
+    .container{
+        display: inline;
+        
+    }
+ }
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .container{
+        display: inline;
+    }
+    .left{
+        display: flex;
+    }
+    
+    .left2 {
+        padding: 5px,5px;
+        margin: 5px;
+        flex-direction: column;
+        padding-right: 55px;
+    }
+    
+}
+
+
+
+ /**************Image***********/
+.left1 img{
+    width: 650px;
+    height: 600px;
+    margin-top: 40px;
+    border-radius: 17px;
+   padding-left: 100px;
+}
+.left2{
+    padding: 20px , 10px;
+    width: 250px;
+    height: 180px;
+    display: flex;
+    margin-left: 95px;
+    cursor: pointer;
+}
+.left2 img{
+    padding: 10px 5px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.left2 img{
+    border: 2px solid transparent;
+}
+.left2 img:hover{
+    border: 4px solid #707ada;
+}
+
+/************************Data************/
+.right{
+    padding-left: 80px;
+    margin: 10px;
+    padding-top: 40px;
+}
+.right h3{
+    font-size: 13px;
+    color: rgb(140, 132, 132);
+    margin: 5px;
+}
+.right h2{
+    margin: 5px;
+    font-size: 30px;
+}
+.right #price{
+    margin-top: 20px;
+    color: rgb(59, 59, 153);
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Inter';
+}
+ul{
+    display: inline-flex;
+}
+#discount{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 200;
+    color: rgb(217, 35, 77);
+}
+#compared{
+    display: flex;
+    color: rgb(111, 108, 108);
+    font-size: 25px;
+}
+
+/****************color************/
+.color h3{
+    color: grey;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.color .box{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    padding: 5px ,10px;
+    transition: 0ms;
+
+}
+
+.box #yellow{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    padding: 20px;
+    accent-color: #ECDECC;
+}
+.box #green{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    padding: 20px;
+    accent-color: #BBD278;
+}
+.box #blue{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    padding: 20px;
+    accent-color: #BBC1F8;
+}
+.box #pink{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    padding: 20px;
+    accent-color:#FFD3F8;
+}
+
+/******************Size***********/
+.size h3{
+    color: grey;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.size ul,input{
+    position: sticky;
+}
+.size ul{
+    padding: 8px, 16px;
+   background-color: #dcdcec;
+   border: 3px solid transparent;
+   margin: 5px;
+   cursor: pointer;
+   border-radius: 10px;
+}
+.size ul:hover{
+    border: 3px solid #fff;
+    color: #717de4;
+}
+
+/*******************Add cart*****************/
+.cart{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.cart .number{
+    background-color: #e8e8f6;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin: 10px solid;
+    display: inline-block;
+    font-size: 40px;
+    border-radius: 40px; 
+    margin-left: 20px;
+}
+
+.cart .number button{
+    font-size: 30px;
+    background-color: #e8e8f6;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.addcart{
+    display: inline;
+    padding-left: 50px;
+    background-color: #707ada;
+    border: 5px solid  #707ada;
+    font-size: 30px;
+    border-radius: 30px;
+    padding-right: 30px;
+}
+.addcart button{
+    background-color: #707ada;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+/***********************msg******************/
+#result{
+    font-size: 23px;
+    padding: 5px, 10px;
+    margin-top: 10px;
+    background-color: #BBD278;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/*******************Description**************/
+.description p{
+    margin-top: 60px;
+    font-size: 24px;
+    color: #8e8171;
+}
+ 

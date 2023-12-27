@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <title>Marmeto Assesment</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+   
+    <div class="container">
+        <div class="left">
+            <div class="left1">
+                <img
+                    src="https://cdn.shopify.com/s/files/1/0564/3685/0790/files/laura-chouette-6Y2XstWtDvM-unsplash.jpg?v=1701946731">
+            </div>
+            <div class="left2">
+                <img
+                    src="https://cdn.shopify.com/s/files/1/0564/3685/0790/files/laura-chouette-6Y2XstWtDvM-unsplash.jpg?v=1701946731">
+                <img
+                    src="https://cdn.shopify.com/s/files/1/0564/3685/0790/files/laura-chouette-HVlOLCHlzJs-unsplash.jpg?v=1701946732">
+                <img
+                    src="https://cdn.shopify.com/s/files/1/0564/3685/0790/files/laura-chouette-om8qxMDlGfI-unsplash.jpg?v=1701946732">
+                <img
+                    src="https://cdn.shopify.com/s/files/1/0564/3685/0790/files/laura-chouette-WQgvRkmqRrg-unsplash.jpg?v=1701946731">
+            </div>
+        </div>
+        <div class="right">
+            <h3>Marmeto</h3>
+            <h2>Embrace Sideboard</h2>
+            <div class="price">
+                <ul id="price">$12999.00</ul>
+                <ul id="discount">35% Off</ul>
+                <ul id="compared"><s>$19999.99</s> </ul>
+            </div>
+
+                <div class="color">
+                    <h3>Choose a Color</h3>
+                    <div class="box">
+                        <input type="checkbox" id="yellow" name="color" value="Yellow"> 
+                        <input type="checkbox" id="green" name="color" value="Green">
+                        <input type="checkbox" id="blue" name="color" value="Blue">
+                        <input type="checkbox" id="pink" name="color" value="Pink">
+                    </div>
+
+                <div class="size">
+                    <h3>Choose a Size</h3>
+                    <input type="radio" name="size" id="small" value="Small"><ul>Small</ul>
+                    <input type="radio" name="size" id="medium" value="Medium"><ul>Medium</ul>
+                    <input type="radio" name="size" id="large" value="Large"><ul>Large</ul>
+                    <input type="radio" name="size" id="xl" value="Extra Large"><ul>Extra Large</ul>
+                    <input type="radio" name="size" id="xxl" value="XXL"><ul>XXL</ul>
+                </div>
+
+                <div class="cart">
+                    <div class="number">
+                        <button onclick="total(-1)">-</button>
+                        <span id="num">0</span>
+                        <button onclick="total(1)">+</button>
+                    </div>
+
+                    <div class="addcart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <button onclick="display()">Add to Cart</button>
+                    </div>
+                        <h2 id="result"></h2>
+                </div>
+
+                <div class="description">
+                    <p>The Embrace Sideboard is a stylish wear. With a top cloth designed to 
+                        provide superior protectionand look great, this storage solution is
+                        both functional and attractive. It fits seamlessly into
+                        any home decor, with clean lines and a timeless look. 
+                        Crafted from premium materials for a combination of style, durability,
+                         and reliability.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
